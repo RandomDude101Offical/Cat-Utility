@@ -25,7 +25,7 @@ async def on_message(message):
         return
 
     if message.content.startswith('cat'):
-        await message.channel.send('Cat!', file=discord.File("pictures/blink.gif"))
+        await message.channel.send('Cat!', file=discord.File("blink.gif"))
 
 
     if message.content.startswith('dog'):
